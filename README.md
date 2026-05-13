@@ -1,7 +1,7 @@
 <!--
 Profile README for AnHgPham/AnHgPham.
-Uses github-readme-stats cards from anuraghazra/github-readme-stats.
-If the public Vercel endpoint is unavailable, self-host github-readme-stats and replace the base URL.
+Inspired by anuraghazra/github-readme-stats.
+Dynamic github-readme-stats cards are kept out of the rendered README because the public Vercel endpoint can return 503.
 -->
 
 <h1 align="center">Phạm Hoàng An</h1>
@@ -27,6 +27,13 @@ If the public Vercel endpoint is unavailable, self-host github-readme-stats and 
   <a href="https://github.com/AnHgPham?tab=stars">
     <img src="https://img.shields.io/badge/Focus-AI%20%7C%20CV%20%7C%20RAG%20%7C%20Web-0f766e?style=flat" alt="Focus areas" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Systems-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="AI Systems" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-2563EB?style=for-the-badge&logo=opencv&logoColor=white" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/RAG%20Apps-0F766E?style=for-the-badge&logo=googlegemini&logoColor=white" alt="RAG Apps" />
+  <img src="https://img.shields.io/badge/Full--stack-F59E0B?style=for-the-badge&logo=vercel&logoColor=111111" alt="Full-stack" />
 </p>
 
 ---
@@ -101,34 +108,60 @@ I like projects that turn AI demos into usable systems: upload a document and as
   </tr>
 </table>
 
-## GitHub Readme Stats
+## Visual Dashboard
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/DoAnTotNghiep">Speech AI Lab</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Few--shot-KWS-7C3AED?style=flat-square" alt="Few-shot KWS" />
+        <img src="https://img.shields.io/badge/Open--set-Rejection-E11D48?style=flat-square" alt="Open-set rejection" />
+        <img src="https://img.shields.io/badge/Streaming-Audio-2563EB?style=flat-square" alt="Streaming audio" />
+      </p>
+      <p>Custom keyword spotting with prototype embeddings, thresholds, and microphone-ready inference.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/sign-language-learning">Vision Learning App</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/YOLO11-Realtime-0F766E?style=flat-square" alt="YOLO11 realtime" />
+        <img src="https://img.shields.io/badge/Webcam-Practice-F59E0B?style=flat-square" alt="Webcam practice" />
+        <img src="https://img.shields.io/badge/Vietnamese-Signs-2563EB?style=flat-square" alt="Vietnamese signs" />
+      </p>
+      <p>Vietnamese sign language practice with real-time feedback and a focused learning flow.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/rag-qa-system">RAG Q&A System</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Retrieval-Baseline-64748B?style=flat-square" alt="Retrieval baseline" />
+        <img src="https://img.shields.io/badge/Embeddings-Semantic-0F766E?style=flat-square" alt="Semantic embeddings" />
+        <img src="https://img.shields.io/badge/LLM-QA-7C3AED?style=flat-square" alt="LLM QA" />
+      </p>
+      <p>Document question answering with baseline retrieval, dense search, and evaluation-oriented design.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/Job-Market-Android-Java">Android Job Market</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Android-Java-3DDC84?style=flat-square" alt="Android Java" />
+        <img src="https://img.shields.io/badge/SQLite-Auth-003B57?style=flat-square" alt="SQLite auth" />
+        <img src="https://img.shields.io/badge/JSearch-API-F59E0B?style=flat-square" alt="JSearch API" />
+      </p>
+      <p>Android app with authentication, job search API integration, and a practical mobile product flow.</p>
+    </td>
+  </tr>
+</table>
+
+<!--
+Optional github-readme-stats block.
+Enable this only after self-hosting github-readme-stats or when the public endpoint is healthy again.
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=AnHgPham&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github&custom_title=An%27s%20GitHub%20Stats" alt="AnHgPham GitHub stats" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnHgPham&layout=compact&langs_count=8&theme=transparent&hide_border=true&card_width=320&custom_title=Languages%20I%20Use" alt="AnHgPham top languages" />
-  </a>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AnHgPham&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github&custom_title=An%27s%20GitHub%20Stats" alt="AnHgPham GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnHgPham&layout=compact&langs_count=8&theme=transparent&hide_border=true&card_width=320&custom_title=Languages%20I%20Use" alt="AnHgPham top languages" />
 </p>
-
-<p align="center">
-  <a href="https://github.com/AnHgPham/DoAnTotNghiep">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnHgPham&repo=DoAnTotNghiep&theme=transparent&hide_border=true&description_lines_count=2" alt="DoAnTotNghiep repository card" />
-  </a>
-  <a href="https://github.com/AnHgPham/sign-language-learning">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnHgPham&repo=sign-language-learning&theme=transparent&hide_border=true&description_lines_count=2" alt="sign-language-learning repository card" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AnHgPham/rag-qa-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnHgPham&repo=rag-qa-system&theme=transparent&hide_border=true&description_lines_count=2" alt="rag-qa-system repository card" />
-  </a>
-  <a href="https://github.com/AnHgPham/Job-Market-Android-Java">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnHgPham&repo=Job-Market-Android-Java&theme=transparent&hide_border=true&description_lines_count=2" alt="Job-Market-Android-Java repository card" />
-  </a>
-</p>
+-->
 
 ## Project Map
 
