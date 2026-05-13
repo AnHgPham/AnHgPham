@@ -124,14 +124,14 @@ I like projects that turn AI demos into usable systems: upload a document and as
   </tr>
   <tr>
     <td width="50%">
-      <h3><a href="https://github.com/AnHgPham/waste-classification">Waste Classification System</a></h3>
+      <h3><a href="https://github.com/AnHgPham/waste_classifier">Waste Classifier</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Deep%20Learning-2563EB?style=flat-square" alt="Deep Learning" />
         <img src="https://img.shields.io/badge/MobileNetV2-95%25-0F766E?style=flat-square" alt="MobileNetV2 accuracy" />
         <img src="https://img.shields.io/badge/YOLOv8-Realtime-F59E0B?style=flat-square" alt="YOLOv8 realtime" />
       </p>
       <p>
-        Automated waste classification across 10 categories with transfer learning, real-time detection, and edge-ready optimization.
+        AI-powered waste classification with transfer learning, realtime object detection, training utilities, prediction scripts, and evaluation workflow.
       </p>
       <p><strong>Stack:</strong> Python, TensorFlow, MobileNetV2, YOLOv8, INT8 quantization</p>
     </td>
@@ -212,6 +212,7 @@ Enable this only after self-hosting github-readme-stats or when the public endpo
 | [DoAnTotNghiep](https://github.com/AnHgPham/DoAnTotNghiep) | Speech AI | Few-shot enrollment makes keyword spotting more personal and practical |
 | [sign-language-learning](https://github.com/AnHgPham/sign-language-learning) | Computer Vision | Real-time sign recognition can support more accessible learning |
 | [rag-qa-system](https://github.com/AnHgPham/rag-qa-system) | RAG / LLM | Shows the full retrieval pipeline from baseline to dense semantic search |
+| [waste_classifier](https://github.com/AnHgPham/waste_classifier) | Waste Classification | MobileNetV2 and YOLOv8 for trash category classification and realtime detection |
 | [eye_disease_diagnosis](https://github.com/AnHgPham/eye_disease_diagnosis) | Medical AI | Applies AI to health-related image understanding |
 | [computer-vision-pickleball-detection-court](https://github.com/AnHgPham/computer-vision-pickleball-detection-court) | Sports CV | Computer vision applied to court and game-state analysis |
 | [event-ticketing](https://github.com/AnHgPham/event-ticketing) | Web App | Practical transaction and management flows for events |
