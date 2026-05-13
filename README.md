@@ -78,12 +78,20 @@ I like projects that turn AI demos into usable systems: upload a document and as
     <td width="50%">
       <h3><a href="https://github.com/AnHgPham/DoAnTotNghiep">Few-Shot Open-Set Keyword Spotting</a></h3>
       <p>
+        <img src="https://img.shields.io/badge/Speech%20AI-7C3AED?style=flat-square" alt="Speech AI" />
+        <img src="https://img.shields.io/badge/Few--shot-KWS-2563EB?style=flat-square" alt="Few-shot KWS" />
+      </p>
+      <p>
         Graduation project for custom keyword spotting. Users enroll a keyword with a few WAV or microphone samples, then the system builds prototype embeddings and rejects unknown audio.
       </p>
       <p><strong>Stack:</strong> Python, MFCC, DSCNN, prototype embeddings, streaming audio</p>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/AnHgPham/sign-language-learning">Vietnamese Sign Language Learning</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Computer%20Vision-0F766E?style=flat-square" alt="Computer Vision" />
+        <img src="https://img.shields.io/badge/YOLO11-Realtime-F59E0B?style=flat-square" alt="YOLO11 realtime" />
+      </p>
       <p>
         Real-time learning platform for Vietnamese sign language with webcam recognition and practice flows for 17 core signs.
       </p>
@@ -94,6 +102,10 @@ I like projects that turn AI demos into usable systems: upload a document and as
     <td width="50%">
       <h3><a href="https://github.com/AnHgPham/rag-qa-system">RAG Document Q&A System</a></h3>
       <p>
+        <img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square" alt="RAG" />
+        <img src="https://img.shields.io/badge/LLM-QA-7C3AED?style=flat-square" alt="LLM QA" />
+      </p>
+      <p>
         End-to-end document Q&A pipeline comparing baseline retrieval with dense embeddings, vector search, and LLM-backed answers.
       </p>
       <p><strong>Stack:</strong> Python, Streamlit, ChromaDB, sentence-transformers, Gemini</p>
@@ -101,9 +113,39 @@ I like projects that turn AI demos into usable systems: upload a document and as
     <td width="50%">
       <h3><a href="https://github.com/AnHgPham/Job-Market-Android-Java">Android Job Market App</a></h3>
       <p>
+        <img src="https://img.shields.io/badge/Android-Java-3DDC84?style=flat-square" alt="Android Java" />
+        <img src="https://img.shields.io/badge/SQLite-Auth-003B57?style=flat-square" alt="SQLite auth" />
+      </p>
+      <p>
         Professional Android job market application with SQLite authentication and JSearch API integration.
       </p>
       <p><strong>Stack:</strong> Java, Android, SQLite, REST API</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/waste-classification">Waste Classification System</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Deep%20Learning-2563EB?style=flat-square" alt="Deep Learning" />
+        <img src="https://img.shields.io/badge/MobileNetV2-95%25-0F766E?style=flat-square" alt="MobileNetV2 accuracy" />
+        <img src="https://img.shields.io/badge/YOLOv8-Realtime-F59E0B?style=flat-square" alt="YOLOv8 realtime" />
+      </p>
+      <p>
+        Automated waste classification across 10 categories with transfer learning, real-time detection, and edge-ready optimization.
+      </p>
+      <p><strong>Stack:</strong> Python, TensorFlow, MobileNetV2, YOLOv8, INT8 quantization</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/AnHgPham/computer-vision-pickleball-detection-court">Pickleball Match Analysis</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Sports%20CV-7C3AED?style=flat-square" alt="Sports CV" />
+        <img src="https://img.shields.io/badge/YOLOv8--Pose-Court-2563EB?style=flat-square" alt="YOLOv8 pose" />
+        <img src="https://img.shields.io/badge/Kalman-Tracking-0F766E?style=flat-square" alt="Kalman tracking" />
+      </p>
+      <p>
+        Pickleball video analysis pipeline for court keypoints, ball tracking, player detection, bounce analysis, and 2D minimap visualization.
+      </p>
+      <p><strong>Stack:</strong> Python, YOLOv8-Pose, OpenCV, homography, Kalman filters</p>
     </td>
   </tr>
 </table>
